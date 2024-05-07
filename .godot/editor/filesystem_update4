@@ -1,0 +1,4 @@
+res://game.tscn
+res://scene/game.tscn
+res://scene/player.tscn
+res://script/player.gd
