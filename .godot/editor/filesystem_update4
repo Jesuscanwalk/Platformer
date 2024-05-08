@@ -6,3 +6,5 @@ res://scene/coin.tscn
 res://script/coin.gd
 res://script/killzone.gd
 res://scene/killzone.tscn
+res://scene/slime.tscn
+res://script/slime.gd
