@@ -1,5 +1,6 @@
-res://game.tscn
+res://scene/Pickups.tscn
 res://scene/game.tscn
 res://scene/player.tscn
-res://script/player.gd
 res://scene/platform.tscn
+res://scene/coin.tscn
+res://script/coin.gd

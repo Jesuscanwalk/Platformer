@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://0b2cyd8visef"]
+[gd_scene load_steps=10 format=3 uid="uid://0b2cyd8visef"]
 
 [ext_resource type="Texture2D" uid="uid://pfh0b125ybo8" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="1_lhg48"]
 [ext_resource type="PackedScene" uid="uid://djmekkhwv2nln" path="res://scene/player.tscn" id="1_qmtug"]
 [ext_resource type="PackedScene" uid="uid://dvq5f5dquyjlg" path="res://scene/platform.tscn" id="3_t36ul"]
+[ext_resource type="PackedScene" uid="uid://dktc4t00rct8k" path="res://scene/coin.tscn" id="4_xy26p"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_toy63"]
 texture = ExtResource("1_lhg48")
@@ -408,6 +409,21 @@ texture = ExtResource("1_lhg48")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_toy63")
 
+[sub_resource type="Animation" id="Animation_85ntp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(401, 54)]
+}
+
 [sub_resource type="Animation" id="Animation_x7srt"]
 resource_name = "move"
 length = 1.5
@@ -423,21 +439,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(401, 54), Vector2(514, 54)]
-}
-
-[sub_resource type="Animation" id="Animation_85ntp"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(401, 54)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_iy1hf"]
@@ -473,3 +474,21 @@ libraries = {
 "": SubResource("AnimationLibrary_iy1hf")
 }
 autoplay = "move"
+
+[node name="Coin" parent="." instance=ExtResource("4_xy26p")]
+position = Vector2(108, 75)
+
+[node name="Coin2" parent="." instance=ExtResource("4_xy26p")]
+position = Vector2(537, 37)
+
+[node name="Coin3" parent="." instance=ExtResource("4_xy26p")]
+position = Vector2(229, -26)
+
+[node name="Coin4" parent="." instance=ExtResource("4_xy26p")]
+position = Vector2(393, 42)
+
+[node name="Coin5" parent="." instance=ExtResource("4_xy26p")]
+position = Vector2(251, 73)
+
+[node name="Coin6" parent="." instance=ExtResource("4_xy26p")]
+position = Vector2(326, 25)

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715115748
+::res://::1715188234
 icon.svg::CompressedTexture2D::5413123603646483032::1715115153::1715115748::1::::<><>::
 README.md::TextFile::-1::1715114504::0::1::::<><>::
 ::res://brackeys_platformer_assets/::1715115180
@@ -24,6 +24,10 @@ platforms.png::CompressedTexture2D::571133909629708662::1715115180::1715115301::
 slime_green.png::CompressedTexture2D::3759900678403055913::1715115180::1715115301::1::::<><>::
 slime_purple.png::CompressedTexture2D::1994118036856818601::1715115180::1715115301::1::::<><>::
 world_tileset.png::CompressedTexture2D::1063624301093828737::1715115180::1715115301::1::::<><>::
-::res://scene/::1715115748
-game.tscn::PackedScene::1758429665819957829::1715115730::0::1::::<><>::
-::res://script/::1715115665
+::res://scene/::1715117647
+game.tscn::PackedScene::1758429665819957829::1715117589::0::1::::<><>::uid://pfh0b125ybo8::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://djmekkhwv2nln::::res://scene/player.tscn<>uid://dvq5f5dquyjlg::::res://scene/platform.tscn
+Pickups.tscn::PackedScene::7900547924518005816::1715188370::0::1::::<><>::uid://dsjlytn8o752l::::res://brackeys_platformer_assets/sprites/coin.png
+platform.tscn::PackedScene::8668089831385023200::1715117569::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
+player.tscn::PackedScene::7815995439856278111::1715117569::0::1::::<><>::res://script/player.gd<>uid://dqvjipib5ktco::::res://brackeys_platformer_assets/sprites/knight.png
+::res://script/::1715116330
+player.gd::GDScript::-1::1715116330::0::1::::<>CharacterBody2D<>::
