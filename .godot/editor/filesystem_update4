@@ -1,10 +1,7 @@
-res://scene/Pickups.tscn
 res://scene/game.tscn
 res://scene/player.tscn
 res://scene/platform.tscn
 res://scene/coin.tscn
-res://script/coin.gd
-res://script/killzone.gd
 res://scene/killzone.tscn
 res://scene/slime.tscn
-res://script/slime.gd
+res://script/player.gd
