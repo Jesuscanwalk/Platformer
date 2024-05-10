@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://0b2cyd8visef"]
+[gd_scene load_steps=14 format=3 uid="uid://0b2cyd8visef"]
 
 [ext_resource type="Texture2D" uid="uid://pfh0b125ybo8" path="res://brackeys_platformer_assets/sprites/world_tileset.png" id="1_lhg48"]
 [ext_resource type="PackedScene" uid="uid://djmekkhwv2nln" path="res://scene/player.tscn" id="1_qmtug"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dktc4t00rct8k" path="res://scene/coin.tscn" id="4_xy26p"]
 [ext_resource type="PackedScene" uid="uid://b5fsxnpaqvw" path="res://scene/killzone.tscn" id="5_37aoq"]
 [ext_resource type="PackedScene" uid="uid://b7gcvei4go4ir" path="res://scene/slime.tscn" id="6_e6uvd"]
+[ext_resource type="FontFile" uid="uid://b3hoggrhdsycl" path="res://brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="7_sbwvs"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_toy63"]
 texture = ExtResource("1_lhg48")
@@ -532,3 +533,32 @@ position = Vector2(77, 3)
 
 [node name="Slime" parent="." instance=ExtResource("6_e6uvd")]
 position = Vector2(579, 81)
+
+[node name="labels" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="labels"]
+offset_left = -53.0
+offset_top = 35.0
+offset_right = 38.0
+offset_bottom = 56.0
+theme_override_fonts/font = ExtResource("7_sbwvs")
+theme_override_font_sizes/font_size = 8
+text = "space to jump"
+
+[node name="Label2" type="Label" parent="labels"]
+offset_left = 413.0
+offset_top = 77.0
+offset_right = 504.0
+offset_bottom = 98.0
+theme_override_fonts/font = ExtResource("7_sbwvs")
+theme_override_font_sizes/font_size = 8
+text = "falling hurts"
+
+[node name="Label3" type="Label" parent="labels"]
+offset_left = 791.0
+offset_top = -59.0
+offset_right = 885.0
+offset_bottom = -38.0
+theme_override_fonts/font = ExtResource("7_sbwvs")
+theme_override_font_sizes/font_size = 8
+text = "almost there..."
