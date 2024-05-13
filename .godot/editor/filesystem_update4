@@ -4,6 +4,4 @@ res://scene/platform.tscn
 res://scene/coin.tscn
 res://scene/killzone.tscn
 res://scene/slime.tscn
-res://script/player.gd
-res://script/game_manager.gd
 res://script/coin.gd
