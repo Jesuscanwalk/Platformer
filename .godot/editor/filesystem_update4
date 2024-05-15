@@ -4,3 +4,4 @@ res://scene/player.tscn
 res://scene/slime.tscn
 res://scene/killzone.tscn
 res://scene/coin.tscn
+res://script/player.gd

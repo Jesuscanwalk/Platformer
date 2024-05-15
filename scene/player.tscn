@@ -1,7 +1,8 @@
-[gd_scene load_steps=18 format=3 uid="uid://djmekkhwv2nln"]
+[gd_scene load_steps=19 format=3 uid="uid://djmekkhwv2nln"]
 
 [ext_resource type="Script" path="res://script/player.gd" id="1_emqmu"]
 [ext_resource type="Texture2D" uid="uid://d24okqkhv25fc" path="res://duck-Sheet.png" id="2_7a4ht"]
+[ext_resource type="AudioStream" uid="uid://b02sc4f26ahud" path="res://Duck Quack - Sound Effect (HD).mp3" id="3_x3dcw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q7c0l"]
 atlas = ExtResource("2_7a4ht")
@@ -125,8 +126,12 @@ position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_wchik")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.266721
+frame = 1
+frame_progress = 0.692258
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2.5, -2.5)
 shape = SubResource("RectangleShape2D_vk26k")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_x3dcw")

@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715794632
+::res://::1715795034
+Duck Quack - Sound Effect (HD).mp3::AudioStreamMP3::4197977983630498647::1715795013::1715795037::1::::<><>::
 duck-Sheet.png::CompressedTexture2D::9115096536180544044::1715794162::1715794162::1::::<><>::
 icon.svg::CompressedTexture2D::5413123603646483032::1715115153::1715115748::1::::<><>::
 README.md::TextFile::-1::1715114504::0::1::::<><>::
@@ -26,17 +27,17 @@ platforms.png::CompressedTexture2D::571133909629708662::1715115180::1715115301::
 slime_green.png::CompressedTexture2D::3759900678403055913::1715115180::1715115301::1::::<><>::
 slime_purple.png::CompressedTexture2D::1994118036856818601::1715115180::1715115301::1::::<><>::
 world_tileset.png::CompressedTexture2D::1063624301093828737::1715115180::1715115301::1::::<><>::
-::res://scene/::1715794162
-coin.tscn::PackedScene::7900547924518005816::1715718545::0::1::::<><>::uid://dsjlytn8o752l::::res://brackeys_platformer_assets/sprites/coin.png<>res://script/coin.gd<>uid://b4d8ft0krjmvx::::res://brackeys_platformer_assets/sounds/coin.wav
-game.tscn::PackedScene::1758429665819957829::1715794162::0::1::::<><>::uid://pfh0b125ybo8::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://djmekkhwv2nln::::res://scene/player.tscn<>res://script/game_manager.gd<>uid://cw316x8dntm3x::::res://brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://dvq5f5dquyjlg::::res://scene/platform.tscn<>uid://dktc4t00rct8k::::res://scene/coin.tscn<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn<>uid://b7gcvei4go4ir::::res://scene/slime.tscn<>uid://b3hoggrhdsycl::::res://brackeys_platformer_assets/fonts/PixelOperator8.ttf<>uid://ejn66g0v5ss6::::res://scene/otherplatform.tscn<>uid://b80ujirmffgj0::::res://scene/redplatform.tscn<>uid://dtrqgttmt3cw1::::res://scene/otherslime.tscn
-killzone.tscn::PackedScene::3895798068107120::1715191390::0::1::::<><>::res://script/killzone.gd
-music.tscn::PackedScene::2285943954017359039::1715718545::0::1::::<><>::uid://dyudpb8vaudlx::::res://brackeys_platformer_assets/music/time_for_adventure.mp3
+::res://scene/::1715794825
+coin.tscn::PackedScene::7900547924518005816::1715794825::0::1::::<><>::uid://dsjlytn8o752l::::res://brackeys_platformer_assets/sprites/coin.png<>res://script/coin.gd<>uid://b4d8ft0krjmvx::::res://brackeys_platformer_assets/sounds/coin.wav
+game.tscn::PackedScene::1758429665819957829::1715794824::0::1::::<><>::uid://pfh0b125ybo8::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://djmekkhwv2nln::::res://scene/player.tscn<>res://script/game_manager.gd<>uid://cw316x8dntm3x::::res://brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://dvq5f5dquyjlg::::res://scene/platform.tscn<>uid://dktc4t00rct8k::::res://scene/coin.tscn<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn<>uid://b7gcvei4go4ir::::res://scene/slime.tscn<>uid://b3hoggrhdsycl::::res://brackeys_platformer_assets/fonts/PixelOperator8.ttf<>uid://ejn66g0v5ss6::::res://scene/otherplatform.tscn<>uid://b80ujirmffgj0::::res://scene/redplatform.tscn<>uid://dtrqgttmt3cw1::::res://scene/otherslime.tscn
+killzone.tscn::PackedScene::3895798068107120::1715794825::0::1::::<><>::res://script/killzone.gd
+music.tscn::PackedScene::2285943954017359039::1715794825::0::1::::<><>::uid://c0c77jomovrbq::::res://The_Duck_Song-MtN1YnoL46Q.mp3
 otherplatform.tscn::PackedScene::300181093513513515::1715721263::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
 otherslime.tscn::PackedScene::8528927716535283166::1715721263::0::1::::<><>::res://script/slime.gd<>uid://3n73kvlm10en::::res://brackeys_platformer_assets/sprites/slime_purple.png<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn
 platform.tscn::PackedScene::8668089831385023200::1715191390::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
-player.tscn::PackedScene::7815995439856278111::1715794162::0::1::::<><>::res://script/player.gd<>uid://d24okqkhv25fc::::res://duck-Sheet.png
+player.tscn::PackedScene::7815995439856278111::1715794825::0::1::::<><>::res://script/player.gd<>uid://d24okqkhv25fc::::res://duck-Sheet.png
 redplatform.tscn::PackedScene::4755492826600724251::1715721263::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
-slime.tscn::PackedScene::4645009106070097029::1715191390::0::1::::<><>::res://script/slime.gd<>uid://bttlarfp25f0d::::res://brackeys_platformer_assets/sprites/slime_green.png<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn
+slime.tscn::PackedScene::4645009106070097029::1715794825::0::1::::<><>::res://script/slime.gd<>uid://bttlarfp25f0d::::res://brackeys_platformer_assets/sprites/slime_green.png<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn
 ::res://script/::1715794161
 coin.gd::GDScript::-1::1715718545::0::1::::<>Area2D<>::
 game_manager.gd::GDScript::-1::1715718545::0::1::::<>Node<>::

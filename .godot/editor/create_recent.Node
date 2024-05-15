@@ -1,6 +1,7 @@
+AudioStreamPlayer
+AudioStreamPlayer2D
 Node
 AnimationPlayer
-AudioStreamPlayer2D
 Label
 RayCast2D
 CollisionShape2D
