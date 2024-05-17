@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b5fsxnpaqvw"]
+[gd_scene load_steps=3 format=3 uid="uid://b5fsxnpaqvw"]
 
 [ext_resource type="Script" path="res://script/killzone.gd" id="1_giyyt"]
+[ext_resource type="AudioStream" uid="uid://c7v4p1eo0m82n" path="res://roblox-death-sound_1.mp3" id="2_bmhrq"]
 
 [node name="Killzone" type="Area2D"]
 collision_mask = 2
@@ -9,6 +10,9 @@ script = ExtResource("1_giyyt")
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.6
 one_shot = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_bmhrq")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
