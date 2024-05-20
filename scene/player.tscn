@@ -62,21 +62,21 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_q7c0l")
 }, {
-"duration": 1.0,
+"duration": 7.0,
 "texture": SubResource("AtlasTexture_8t7ic")
 }, {
-"duration": 1.0,
+"duration": 10.0,
 "texture": SubResource("AtlasTexture_mw7cw")
 }, {
-"duration": 1.0,
+"duration": 5.0,
 "texture": SubResource("AtlasTexture_ishvx")
 }, {
-"duration": 1.0,
+"duration": 4.0,
 "texture": SubResource("AtlasTexture_n10el")
 }],
 "loop": true,
 "name": &"idle",
-"speed": 1.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -126,8 +126,6 @@ position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_wchik")
 animation = &"idle"
 autoplay = "idle"
-frame = 1
-frame_progress = 0.692258
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2.5, -2.5)
