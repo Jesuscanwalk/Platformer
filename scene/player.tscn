@@ -59,7 +59,7 @@ region = Rect2(416, 0, 32, 40)
 [sub_resource type="SpriteFrames" id="SpriteFrames_wchik"]
 animations = [{
 "frames": [{
-"duration": 1.0,
+"duration": 4.0,
 "texture": SubResource("AtlasTexture_q7c0l")
 }, {
 "duration": 7.0,
