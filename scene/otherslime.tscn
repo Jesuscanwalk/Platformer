@@ -41,7 +41,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mbsqs"]
-size = Vector2(12, 12)
+size = Vector2(10, 12)
 
 [node name="Slime" type="Node2D"]
 script = ExtResource("1_3jayh")

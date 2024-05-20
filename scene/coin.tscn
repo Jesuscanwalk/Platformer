@@ -224,11 +224,9 @@ sprite_frames = SubResource("SpriteFrames_c32wx")
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 shape = SubResource("CircleShape2D_3v7nr")
 
 [node name="PickupSound" type="AudioStreamPlayer2D" parent="."]
-visible = false
 stream = ExtResource("3_8icjj")
 volume_db = -5.0
 
