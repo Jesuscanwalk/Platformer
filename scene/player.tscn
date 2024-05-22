@@ -118,6 +118,7 @@ size = Vector2(18.5, 15)
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 5
+scale = Vector2(0.85, 0.85)
 collision_layer = 2
 script = ExtResource("1_emqmu")
 
