@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716931432
+::res://::1716931748
 anime-wow-sound-effect_7jbsmyg.mp3::AudioStreamMP3::6737999604058803619::1716242015::1716242015::1::::<><>::
 bad-to-the-bone.mp3::AudioStreamMP3::7342261726110859472::1716242015::1716242015::1::::<><>::
 Duck Quack - Sound Effect (HD).mp3::AudioStreamMP3::4197977983630498647::1716242015::1716242015::1::::<><>::
@@ -10,6 +10,7 @@ quagmire-giggity-giggity-giggity_0tjmCAd.mp3::AudioStreamMP3::585563294588758306
 README.md::TextFile::-1::1715115388::0::1::::<><>::
 roblox-death-sound_1.mp3::AudioStreamMP3::7064025248793631063::1716242015::1716242015::1::::<><>::
 The_Duck_Song-MtN1YnoL46Q.mp3::AudioStreamMP3::6533691797920806782::1716242015::1716242015::1::::<><>::
+uglycat-Shee2t.png::CompressedTexture2D::6705591486958300677::1716931748::1716931748::1::::<><>::
 uglycat-Sheet.png::CompressedTexture2D::2546881316966632782::1716931432::1716931432::1::::<><>::
 ::res://brackeys_platformer_assets/::1715115388
 LICENSE & CREDITS.txt::TextFile::-1::1715115388::0::1::::<><>::
@@ -25,7 +26,7 @@ hurt.wav::AudioStreamWAV::3121781603483031024::1715115388::1715115501::1::::<><>
 jump.wav::AudioStreamWAV::61781761715071174::1715115388::1715115501::1::::<><>::
 power_up.wav::AudioStreamWAV::4833371698010227128::1715115388::1715115501::1::::<><>::
 tap.wav::AudioStreamWAV::7910505237550211919::1715115388::1715115501::1::::<><>::
-::res://brackeys_platformer_assets/sprites/::1716931382
+::res://brackeys_platformer_assets/sprites/::1716931675
 coin-export.png::CompressedTexture2D::568515707572162931::1716242015::1716242015::1::::<><>::
 coin.png::CompressedTexture2D::8441952401870053849::1716242015::1715796004::1::::<><>::
 fruit.png::CompressedTexture2D::1289500734929649950::1715115388::1715115501::1::::<><>::
@@ -33,19 +34,20 @@ knight.png::CompressedTexture2D::8326197021703842030::1715115388::1715115501::1:
 platforms.png::CompressedTexture2D::571133909629708662::1715115388::1715115501::1::::<><>::
 slime_green.png::CompressedTexture2D::3759900678403055913::1715115388::1715115501::1::::<><>::
 slime_purple.png::CompressedTexture2D::1994118036856818601::1715115388::1715115501::1::::<><>::
+uglycat-Shee2t.png::CompressedTexture2D::5927367609882177029::1716931672::1716931675::1::::<><>::
 uglycat-Sheet.png::CompressedTexture2D::375891682678742953::1716931379::1716931382::1::::<><>::
 world_tileset.png::CompressedTexture2D::1063624301093828737::1715115388::1715115501::1::::<><>::
-::res://scene/::1716398710
-coin.tscn::PackedScene::7900547924518005816::1716398710::0::1::::<><>::uid://dsjlytn8o752l::::res://brackeys_platformer_assets/sprites/coin.png<>res://script/coin.gd<>uid://cporoiqkshebt::::res://quagmire-giggity-giggity-giggity_0tjmCAd.mp3<>uid://um53ebi311el::::res://juice.png
-game.tscn::PackedScene::1758429665819957829::1716398710::0::1::::<><>::uid://pfh0b125ybo8::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://djmekkhwv2nln::::res://scene/player.tscn<>res://script/game_manager.gd<>uid://cw316x8dntm3x::::res://brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://dvq5f5dquyjlg::::res://scene/platform.tscn<>uid://dktc4t00rct8k::::res://scene/coin.tscn<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn<>uid://b7gcvei4go4ir::::res://scene/slime.tscn<>uid://b3hoggrhdsycl::::res://brackeys_platformer_assets/fonts/PixelOperator8.ttf<>uid://ejn66g0v5ss6::::res://scene/otherplatform.tscn<>uid://b80ujirmffgj0::::res://scene/redplatform.tscn<>uid://dtrqgttmt3cw1::::res://scene/otherslime.tscn
-killzone.tscn::PackedScene::3895798068107120::1716398710::0::1::::<><>::res://script/killzone.gd<>uid://c7v4p1eo0m82n::::res://roblox-death-sound_1.mp3
-music.tscn::PackedScene::2285943954017359039::1716398710::0::1::::<><>::
+::res://scene/::1716931560
+coin.tscn::PackedScene::7900547924518005816::1716931504::0::1::::<><>::uid://dsjlytn8o752l::::res://brackeys_platformer_assets/sprites/coin.png<>res://script/coin.gd<>uid://cporoiqkshebt::::res://quagmire-giggity-giggity-giggity_0tjmCAd.mp3<>uid://um53ebi311el::::res://juice.png
+game.tscn::PackedScene::1758429665819957829::1716931504::0::1::::<><>::uid://pfh0b125ybo8::::res://brackeys_platformer_assets/sprites/world_tileset.png<>uid://djmekkhwv2nln::::res://scene/player.tscn<>res://script/game_manager.gd<>uid://cw316x8dntm3x::::res://brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf<>uid://dvq5f5dquyjlg::::res://scene/platform.tscn<>uid://dktc4t00rct8k::::res://scene/coin.tscn<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn<>uid://b7gcvei4go4ir::::res://scene/slime.tscn<>uid://b3hoggrhdsycl::::res://brackeys_platformer_assets/fonts/PixelOperator8.ttf<>uid://ejn66g0v5ss6::::res://scene/otherplatform.tscn<>uid://b80ujirmffgj0::::res://scene/redplatform.tscn<>uid://dtrqgttmt3cw1::::res://scene/otherslime.tscn
+killzone.tscn::PackedScene::3895798068107120::1716931504::0::1::::<><>::res://script/killzone.gd<>uid://c7v4p1eo0m82n::::res://roblox-death-sound_1.mp3
+music.tscn::PackedScene::2285943954017359039::1716931505::0::1::::<><>::
 otherplatform.tscn::PackedScene::300181093513513515::1716242015::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
-otherslime.tscn::PackedScene::8528927716535283166::1716398710::0::1::::<><>::res://script/slime.gd<>uid://3n73kvlm10en::::res://brackeys_platformer_assets/sprites/slime_purple.png<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn
+otherslime.tscn::PackedScene::8528927716535283166::1716931505::0::1::::<><>::res://script/slime.gd<>uid://3n73kvlm10en::::res://brackeys_platformer_assets/sprites/slime_purple.png<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn
 platform.tscn::PackedScene::8668089831385023200::1715720219::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
-player.tscn::PackedScene::7815995439856278111::1716398710::0::1::::<><>::res://script/player.gd<>uid://d24okqkhv25fc::::res://duck-Sheet.png<>uid://b02sc4f26ahud::::res://Duck Quack - Sound Effect (HD).mp3
+player.tscn::PackedScene::7815995439856278111::1716931504::0::1::::<><>::res://script/player.gd<>uid://d24okqkhv25fc::::res://duck-Sheet.png<>uid://b02sc4f26ahud::::res://Duck Quack - Sound Effect (HD).mp3
 redplatform.tscn::PackedScene::4755492826600724251::1716242015::0::1::::<><>::uid://iewqy2pkvxqs::::res://brackeys_platformer_assets/sprites/platforms.png
-slime.tscn::PackedScene::4645009106070097029::1716398710::0::1::::<><>::res://script/slime.gd<>uid://bttlarfp25f0d::::res://brackeys_platformer_assets/sprites/slime_green.png<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn
+slime.tscn::PackedScene::4645009106070097029::1716931560::0::1::::<><>::res://script/slime.gd<>uid://b5fsxnpaqvw::::res://scene/killzone.tscn<>uid://bcjy07ijqyyh7::::res://uglycat-Sheet.png
 ::res://script/::1716242015
 coin.gd::GDScript::-1::1716242015::0::1::::<>Area2D<>::
 game_manager.gd::GDScript::-1::1716242015::0::1::::<>Node<>::

@@ -1,39 +1,39 @@
 [gd_scene load_steps=10 format=3 uid="uid://dtrqgttmt3cw1"]
 
 [ext_resource type="Script" path="res://script/slime.gd" id="1_3jayh"]
-[ext_resource type="Texture2D" uid="uid://3n73kvlm10en" path="res://brackeys_platformer_assets/sprites/slime_purple.png" id="2_4xrhh"]
+[ext_resource type="Texture2D" uid="uid://c2sid2tvjkacb" path="res://uglycat-Shee2t.png" id="2_3ghua"]
 [ext_resource type="PackedScene" uid="uid://b5fsxnpaqvw" path="res://scene/killzone.tscn" id="3_ti8qp"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_rsbsm"]
-atlas = ExtResource("2_4xrhh")
-region = Rect2(0, 24, 24, 24)
+[sub_resource type="AtlasTexture" id="AtlasTexture_dl5fx"]
+atlas = ExtResource("2_3ghua")
+region = Rect2(0, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_0kunr"]
-atlas = ExtResource("2_4xrhh")
-region = Rect2(24, 24, 24, 24)
+[sub_resource type="AtlasTexture" id="AtlasTexture_qy3ie"]
+atlas = ExtResource("2_3ghua")
+region = Rect2(32, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_7o13k"]
-atlas = ExtResource("2_4xrhh")
-region = Rect2(48, 24, 24, 24)
+[sub_resource type="AtlasTexture" id="AtlasTexture_2eoog"]
+atlas = ExtResource("2_3ghua")
+region = Rect2(64, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_y3dqk"]
-atlas = ExtResource("2_4xrhh")
-region = Rect2(72, 24, 24, 24)
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ty05"]
+atlas = ExtResource("2_3ghua")
+region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_81sg0"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_rsbsm")
+"texture": SubResource("AtlasTexture_dl5fx")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_0kunr")
+"texture": SubResource("AtlasTexture_qy3ie")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_7o13k")
+"texture": SubResource("AtlasTexture_2eoog")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_y3dqk")
+"texture": SubResource("AtlasTexture_7ty05")
 }],
 "loop": true,
 "name": &"default",
@@ -47,7 +47,8 @@ size = Vector2(10, 12)
 script = ExtResource("1_3jayh")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -12)
+position = Vector2(1, -8.25)
+scale = Vector2(0.5, 0.546875)
 sprite_frames = SubResource("SpriteFrames_81sg0")
 autoplay = "default"
 frame_progress = 0.511376
