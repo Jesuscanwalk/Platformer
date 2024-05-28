@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dsjlytn8o752l" path="res://brackeys_platformer_assets/sprites/coin.png" id="1_0rhv6"]
 [ext_resource type="Script" path="res://script/coin.gd" id="1_cnixe"]
-[ext_resource type="AudioStream" uid="uid://cporoiqkshebt" path="res://quagmire-giggity-giggity-giggity_0tjmCAd.mp3" id="3_8icjj"]
+[ext_resource type="AudioStream" uid="uid://co2a0ttuwjucd" path="res://untitled_GMB2dQl.mp3" id="3_hgjke"]
 [ext_resource type="Texture2D" uid="uid://um53ebi311el" path="res://juice.png" id="4_xsjhc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5t6k6"]
@@ -227,7 +227,7 @@ autoplay = "default"
 shape = SubResource("CircleShape2D_3v7nr")
 
 [node name="PickupSound" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3_8icjj")
+stream = ExtResource("3_hgjke")
 volume_db = -5.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

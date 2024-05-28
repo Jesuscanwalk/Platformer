@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://dtrqgttmt3cw1"]
+[gd_scene load_steps=11 format=3 uid="uid://dtrqgttmt3cw1"]
 
 [ext_resource type="Script" path="res://script/slime.gd" id="1_3jayh"]
 [ext_resource type="Texture2D" uid="uid://c2sid2tvjkacb" path="res://uglycat-Shee2t.png" id="2_3ghua"]
 [ext_resource type="PackedScene" uid="uid://b5fsxnpaqvw" path="res://scene/killzone.tscn" id="3_ti8qp"]
+[ext_resource type="AudioStream" uid="uid://bxo31f3xpeitg" path="res://angry4.mp3" id="4_nk1v7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dl5fx"]
 atlas = ExtResource("2_3ghua")
@@ -67,3 +68,8 @@ target_position = Vector2(10, 0)
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 position = Vector2(0, -6)
 target_position = Vector2(-9, 0)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_nk1v7")
+autoplay = true
+max_distance = 100.0
